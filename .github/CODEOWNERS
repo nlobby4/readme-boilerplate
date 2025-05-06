@@ -1,0 +1,6 @@
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+# This file tells GitHub who owns what parts of the codebase.
+# These users or teams will be automatically requested for reviews on PRs affecting these paths.
+
+# Global owner, acts as fallback for everything not specified below
+* @exquz3me

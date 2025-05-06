@@ -1,0 +1,91 @@
+<svg fill="none" viewBox="0 0 396 448" width="auto" height="130" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%" x="0" y="0">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="position: relative; font-family: 'Courier New'; font-size: 12pt; line-height: 1; font-weight: bold;">
+      <style>
+        .layered {
+          position: relative;
+          display: block;
+          white-space: pre;
+          color: #212529;
+          animation: float 3s ease-in-out infinite;
+        }
+
+        .layered:nth-child(even) {
+          animation-delay: 0.15s;
+        }
+
+        .layered:nth-child(odd) {
+          animation-delay: 0.3s;
+        }
+
+        .layered::before,
+        .layered::after {
+          content: attr(data-text);
+          position: absolute;
+          left: 2px;
+          top: 2px;
+          color: rgba(0, 0, 0, 0.2);
+          z-index: -1;
+        }
+
+        .layered::after {
+          left: 4px;
+          top: 4px;
+          color: rgba(0, 0, 0, 0.1);
+        }
+
+        @media (prefers-color-scheme: dark) {
+          .layered {
+            color: #F8F9FA;
+          }
+
+          .layered::before {
+            color: rgba(255, 255, 255, 0.2);
+          }
+
+          .layered::after {
+            color: rgba(255, 255, 255, 0.1);
+          }
+        }
+
+        @keyframes float {
+          0%, 100% {
+            transform: translateY(0px);
+          }
+          50% {
+            transform: translateY(-2px);
+          }
+        }
+      </style>
+
+      <span class="layered" data-text=""></span>
+      <span class="layered" data-text="                 uuuuuuu">                 uuuuuuu</span>
+      <span class="layered" data-text="             uu$$$$$$$$$$$uu">             uu$$$$$$$$$$$uu</span>
+      <span class="layered" data-text="          uu$$$$$$$$$$$$$$$$$uu">          uu$$$$$$$$$$$$$$$$$uu</span>
+      <span class="layered" data-text="         u$$$$$$$$$$$$$$$$$$$$$u">         u$$$$$$$$$$$$$$$$$$$$$u</span>
+      <span class="layered" data-text="        u$$$$$$$$$$$$$$$$$$$$$$$u">        u$$$$$$$$$$$$$$$$$$$$$$$u</span>
+      <span class="layered" data-text="       u$$$$$$$$$$$$$$$$$$$$$$$$$u">       u$$$$$$$$$$$$$$$$$$$$$$$$$u</span>
+      <span class="layered" data-text="       u$$$$$$$$$$$$$$$$$$$$$$$$$u">       u$$$$$$$$$$$$$$$$$$$$$$$$$u</span>
+      <span class="layered" data-text="       u$$$$$$&quot;   &quot;$$$&quot;   &quot;$$$$$$u">       u$$$$$$&quot;   &quot;$$$&quot;   &quot;$$$$$$u</span>
+      <span class="layered" data-text="       &quot;$$$$&quot;      u$u       $$$$&quot;">       &quot;$$$$&quot;      u$u       $$$$&quot;</span>
+      <span class="layered" data-text="        $$$u       u$u       u$$$">        $$$u       u$u       u$$$</span>
+      <span class="layered" data-text="        $$$u      u$$$u      u$$$">        $$$u      u$$$u      u$$$</span>
+      <span class="layered" data-text="         &quot;$$$$uu$$$   $$$uu$$$$&quot;">         &quot;$$$$uu$$$   $$$uu$$$$&quot;</span>
+      <span class="layered" data-text="          &quot;$$$$$$$&quot;   &quot;$$$$$$$&quot;">          &quot;$$$$$$$&quot;   &quot;$$$$$$$&quot;</span>
+      <span class="layered" data-text="            u$$$$$$$u$$$$$$$u">            u$$$$$$$u$$$$$$$u</span>
+      <span class="layered" data-text="             u$&quot;$&quot;$&quot;$&quot;$&quot;$&quot;$u">             u$&quot;$&quot;$&quot;$&quot;$&quot;$&quot;$u</span>
+      <span class="layered" data-text="  uuu        $$u$ $ $ $ $u$$       uuu">  uuu        $$u$ $ $ $ $u$$       uuu</span>
+      <span class="layered" data-text=" u$$$$        $$$$$u$u$u$$$       u$$$$"> u$$$$        $$$$$u$u$u$$$       u$$$$</span>
+      <span class="layered" data-text="  $$$$$uu      &quot;$$$$$$$$$&quot;     uu$$$$$$">  $$$$$uu      &quot;$$$$$$$$$&quot;     uu$$$$$$</span>
+      <span class="layered" data-text="u$$$$$$$$$$$uu    &quot;&quot;&quot;&quot;&quot;    uuuu$$$$$$$$$$">u$$$$$$$$$$$uu    &quot;&quot;&quot;&quot;&quot;    uuuu$$$$$$$$$$</span>
+      <span class="layered" data-text="$$$$&quot;&quot;&quot;$$$$$$$$$$uuu   uu$$$$$$$$$&quot;&quot;&quot;$$$&quot;">$$$$&quot;&quot;&quot;$$$$$$$$$$uuu   uu$$$$$$$$$&quot;&quot;&quot;$$$&quot;</span>
+      <span class="layered" data-text=" &quot;&quot;&quot;      &quot;&quot;$$$$$$$$$$$uu &quot;&quot;$&quot;&quot;&quot;"> &quot;&quot;&quot;      &quot;&quot;$$$$$$$$$$$uu &quot;&quot;$&quot;&quot;&quot;</span>
+      <span class="layered" data-text="           uuuu &quot;&quot;$$$$$$$$$$uuu">           uuuu &quot;&quot;$$$$$$$$$$uuu</span>
+      <span class="layered" data-text="  u$$$uuu$$$$$$$$$uu &quot;&quot;$$$$$$$$$$$uuu$$$">  u$$$uuu$$$$$$$$$uu &quot;&quot;$$$$$$$$$$$uuu$$$</span>
+      <span class="layered" data-text="  $$$$$$$$$$&quot;&quot;&quot;&quot;           &quot;&quot;$$$$$$$$$$$&quot;">  $$$$$$$$$$&quot;&quot;&quot;&quot;           &quot;&quot;$$$$$$$$$$$&quot;</span>
+      <span class="layered" data-text="   &quot;$$$$$&quot;                      &quot;&quot;$$$$&quot;&quot;">   &quot;$$$$$&quot;                      &quot;&quot;$$$$&quot;&quot;</span>
+      <span class="layered" data-text="     $$$&quot;                         $$$$&quot;">     $$$&quot;                         $$$$&quot;</span>
+      <span class="layered" data-text=""></span>
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "bierner.github-markdown-preview",
+    "yzhang.markdown-all-in-one",
+    "editorconfig.editorconfig",
+    "redhat.vscode-yaml",
+    "redxam.vscode-templates"
+  ]
+}
