@@ -118,7 +118,7 @@ this will result in all the contained files being copied to your new repository.
   <img src="https://raw.githubusercontent.com/nlobby4/.organization/refs/heads/main/Logos/.current.png" height="40" alt="nlobby4 logo" />
 </a>
 
-<img align="right" src="./.meta/art-footer.svg" alt="art-footer">
+<img align="right" width="130" src="./.meta/art-footer.svg" alt="art-footer">
 
 <!-- ############################################# -->
 <!-- References -->
