@@ -1,0 +1,23 @@
+//? dictionaries: https://cspell.org/docs/dictionaries/
+//? NOTE: if you you're adding other Languages you will need to install the according extension.
+//?       Make sure to add the extension to the recommended extensions by right clicking
+//?       the file and selecting "Add to Workspace Recommendations"
+
+{
+  "version": "0.2",
+  "language": "en,en-GB,en-US",
+  //? these words are used across multiple repositories
+  "words": ["nlobby4", "flockmod", "exquz3me"],
+  "ignorePaths": ["node_modules", "dist", "*.drawio"],
+  "useGitignore": true,
+  "dictionaries": [
+    "html",
+    "css",
+    "fonts",
+    "javascript",
+    "node",
+    "npm",
+    "misc",
+    "softwareTerms"
+  ]
+}

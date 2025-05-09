@@ -11,6 +11,7 @@ body:
     id: what-happened
     attributes:
       label: Describe the issue
+      # TODO: change the repository url to yours
       description: |
         Provide a summary of the issue and what you expected to happen.
         Adding reproduction steps, relevant links or reduced test cases would be helpful.

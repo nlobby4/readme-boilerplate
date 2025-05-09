@@ -3,4 +3,5 @@
 # These users or teams will be automatically requested for reviews on PRs affecting these paths.
 
 # Global owner, acts as fallback for everything not specified below
+# TODO: Add people or teams to their respective sections
 * @exquz3me

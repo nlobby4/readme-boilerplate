@@ -9,14 +9,6 @@
           color: #212529;
         }
 
-        .layered:nth-child(even) {
-          animation-delay: 0.15s;
-        }
-
-        .layered:nth-child(odd) {
-          animation-delay: 0.3s;
-        }
-
         .layered::before,
         .layered::after {
           content: attr(data-text);

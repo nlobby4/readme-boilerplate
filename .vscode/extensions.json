@@ -4,6 +4,18 @@
     "yzhang.markdown-all-in-one",
     "editorconfig.editorconfig",
     "redhat.vscode-yaml",
-    "redxam.vscode-templates"
+    "redxam.vscode-templates",
+    "wayou.vscode-todo-highlight",
+    "streetsidesoftware.code-spell-checker",
+    "aaron-bond.better-comments",
+    "hediet.vscode-drawio",
+    "codecov.codecov",
+    "davidanson.vscode-markdownlint",
+    "usernamehw.errorlens",
+    "ms-vscode-remote.remote-containers",
+    "ms-vscode.vscode-github-issue-notebooks",
+    "github.vscode-codeql",
+    "github.codespaces",
+    "snyk-security.snyk-vulnerability-scanner"
   ]
 }

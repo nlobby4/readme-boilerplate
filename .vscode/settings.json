@@ -1,5 +1,29 @@
 {
+  // Files
   "files.associations": {
-    "CODEOWNERS": "properties"
+    "CODEOWNERS": "properties",
+    "AUTHORS": "properties"
+  },
+
+  // Formatting
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+
+  // cSpell config
+  // TODO: Remove CODEOWNERS
+  // TODO: Add project specific words
+  "cSpell.words": ["CODEOWNERS"],
+
+  // markdownlint
+  "markdownlint.config": {
+    "default": true,
+    "MD033": false,
+    "MD041": false,
+    "MD013": {
+      "code_blocks": false,
+      "tables": false
+    }
   }
 }

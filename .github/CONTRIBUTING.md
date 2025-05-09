@@ -20,8 +20,7 @@
 <a id="readme-top"></a>
 
 <h1 align="center">
-  <img src="./.meta/art-contributing.svg" alt="art-contributing">
-  <img src="./.meta/contribtuing.svg" alt="contributing">
+  <img src="./.meta/art-contributing.svg" alt="art-contributing"><img src="./.meta/contribtuing.svg" alt="contributing">
 </h1>
 
 <!-- ############################################### -->

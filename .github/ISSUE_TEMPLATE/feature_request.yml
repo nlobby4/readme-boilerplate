@@ -11,6 +11,7 @@ body:
     id: proposal
     attributes:
       label: Proposal
+      # TODO: change the repository url to yours
       description: |
         Provide detailed information for a feature that should be added, including relevant links whenever possible.
 

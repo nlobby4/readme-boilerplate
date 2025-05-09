@@ -26,7 +26,7 @@
 
 <!-- ############################################### -->
 <!-- Description -->
-<!-- Create a short repository descirption and add relevant links -->
+<!-- Create a short repository description and add relevant links -->
 <!-- IMPORTANT: replace the repository name in REQUEST FEATURE -->
 
 <p align="center">
@@ -78,7 +78,7 @@
 
 ### **Gists**
 
-- add helpfult gists to the [nlobby4 gists public]() or [nlobby4 gists private]() repository.
+- add helpful gists to the [nlobby4 gists public]() or [nlobby4 gists private]() repository.
 
 ## File and Folder Structure
 

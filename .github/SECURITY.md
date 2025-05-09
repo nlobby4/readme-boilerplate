@@ -1,5 +1,5 @@
-<!-- ############################################# -->
-<!-- Links -->
+<!-- ? ############################################# -->
+<!-- ? Links -->
 
 <!--
   Shields: https://shields.io/
@@ -14,23 +14,24 @@
     prefers dark: #F8F9FA
 -- >
 
-<!-- ############################################# -->
-<!-- Header -->
+<!-- ? ############################################# -->
+<!-- ? Header -->
 
 <h1 align="center">
   <img src="./.meta/art-security.svg" alt="art-security">
   <img src="./.meta/security.svg" alt="security">
 </h1>
 
-<!-- ############################################# -->
-<!-- Main Area -->
+<!-- ? ############################################# -->
+<!-- ? Main Area -->
+<!-- General security information -->
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability or harmful exploits in this project, please **do not** create a public issue.
-Instead, report it privately to a active developer via [discord](https://discord.gg/flockmod/) or the [flockmod](https://flockmod.com/) inbox.
+If you discover a security vulnerability, exploit, or any potentially harmful behavior in this project, **please do not open a public issue**. Instead, report it **privately** through one of the following channels:
 
-- Anonymous (@anon.ns)
-- sphoon (@exquz3me)
-- D (@devorous)
-- Zexium
+* **Email**: Send details to [contact@nlobby4.org](mailto:contact@nlobby4.org)
+* **Discord**: [Join our Discord server](https://discord.gg/flockmod/) and message an active developer directly
+* **Flockmod Inbox**: Use the messaging system at [flockmod.com](https://flockmod.com/)
+
+If you're unsure who to contact, please refer to the current list of [organization members](https://github.com/orgs/nlobby4/people).
