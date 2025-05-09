@@ -67,7 +67,7 @@
 
 <div align="center">
   <p style="white-space: pre;">
-    ⓘ <a href="https://nlobby4.org/news/" style="white-space: nowrap;">​[NEWS] ​</a>  🖿 <a href="https://nlobby4.org/draw/" style="white-space: nowrap;">​[DEMO] ​</a>  ★ <a href="https://github.com/nlobby4/readme-boilerplate/issues/new?template=feature_request.yml" style="white-space: nowrap;">​[REQUEST FEATURE] ​</a>  ⚠ <a href="https://github.com/nlobby4/readme-boilerplate/issues/new?template=feature_request.yml" style="white-space: nowrap;">​[REPORT BUG]​</a>
+    ⓘ <a href="https://nlobby4.org/news/" style="white-space: nowrap;">​[NEWS] ​</a>  🖿 <a href="https://nlobby4.org/draw/" style="white-space: nowrap;">​[DEMO] ​</a>  ★ <a href="https://github.com/nlobby4/readme-boilerplate/issues/new?template=feature_request.yml" style="white-space: nowrap;">​[REQUEST FEATURE] ​</a>  ⚠ <a href="https://github.com/nlobby4/readme-boilerplate/issues/new?template=bug_report.yml" style="white-space: nowrap;">​[REPORT BUG]​</a>
   </p>
 </div>
 
