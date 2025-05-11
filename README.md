@@ -67,7 +67,7 @@
 
 <div align="center">
   <p style="white-space: pre;">
-    ⓘ <a href="https://nlobby4.org/news/" style="white-space: nowrap;">​[NEWS] ​</a>  🖿 <a href="https://nlobby4.org/draw/" style="white-space: nowrap;">​[DEMO] ​</a>  ★ <a href="https://github.com/nlobby4/readme-boilerplate/issues/new?template=feature_request.yml" style="white-space: nowrap;">​[REQUEST FEATURE] ​</a>  ⚠ <a href="https://github.com/nlobby4/readme-boilerplate/issues/new?template=bug_report.yml" style="white-space: nowrap;">​[REPORT BUG]​</a>
+    ⓘ <a href="https://nlobby4.org/news/" style="white-space: nowrap;">​[NEWS] ​</a>  🖿 <a href="https://nlobby4.org/draw/" style="white-space: nowrap;">​[DEMO] ​</a>  ★ <a href="https://github.com/nlobby4/readme-boilerplate/issues/new?template=feature_request.yml" style="white-space: nowrap;">​[REQUEST FEATURE] ​</a>  &#x26A0;&#xFE0E; <a href="https://github.com/nlobby4/readme-boilerplate/issues/new?template=bug_report.yml" style="white-space: nowrap;">​[REPORT BUG]​</a>
   </p>
 </div>
 
@@ -85,6 +85,32 @@
         <li><a href="#a-copy-to-an-existing-repository">Existing Repository</a></li>
         <li><a href="#b-start-a-new-repository">New Repository</a></li>
       </ul>
+    </li>
+    <li>
+      <a href="#apply-these-changes">Apply These Changes</a>
+    </li>
+    <li>
+      <a href="#tools">Tools</a>
+      <ul>
+        <li><a href="#cspell">cSpell</a></li>
+        <li><a href="#editorconfig">EditorConfig</a></li>
+        <li><a href="#keep-a-changelog">Keep a Changelog</a></li>
+        <li><a href="#codecov">Codecov</a></li>
+        <li><a href="#markdownlint">Markdownlint</a></li>
+        <li><a href="#markdown-all-in-one">Markdown All in One</a></li>
+        <li><a href="#notebooks">Notebooks</a></li>
+        <li><a href="#dev-containers">Dev Containers</a></li>
+        <li><a href="#github-codespaces">GitHub CodeSpaces</a></li>
+        <li><a href="#github-actions">GitHub Actions</a></li>
+        <li><a href="#codeql">CodeQL</a></li>
+        <li><a href="#snyk-security">Snyk Security</a></li>
+        <li><a href="#gitlens">GitLens</a></li>
+        <li><a href="#github-pull-requests">GitHub Pull Requests</a></li>
+        <li><a href="#templates">Templates</a></li>
+        <li><a href="#dependabot">dependabot</a></li>
+        <li><a href="#env-with-org-secrets">.env with org secrets</a></li>
+        <li><a href="#git-lens">git lens</a></li>
+        <li><a href="#drawio">draw.io</a></li>
     </li>
   </ol>
 </details>
@@ -107,8 +133,8 @@ The markdown files include `TODO` comments that explain the purpose of each
 section, along with usage guidelines. These comments can be removed once you
 have acknowledged their purpose. Depending on the needs of your repository, you
 can decide whether to keep or remove specific sections or files. Nevertheless,
-it's still recommended to install the suggested extensions and keep the
-`.editorconfig` file.
+it's still recommended to install the suggested extensions and keep their
+respective configuration files, see [Tools](#tools) for more information.
 
 In general there are two ways to utilize this repository:
 
@@ -137,6 +163,8 @@ automatically apply the workspace settings.
 
 ## Apply These Changes
 
+TODO: TODO: TODO: TODO: creating a github action to automatically configure
+
 After adding the template to your project, you will have to make some minor
 adjustments to ensure everything works correctly. The following table outlines
 the files you should modify and the changes you need to make:
@@ -149,6 +177,7 @@ the files you should modify and the changes you need to make:
 | `feature_request.yml` `bug_report.yml` | <ul><li>Replace `readme-boilerplate` with your repository name</li><li>Adapt the templates if required</li></ul>                                               |
 | `LICENSE`                              | <ul><li>[Choose a license](https://choosealicense.com/) that fits your project (default: [MIT License](https://opensource.org/license/mit/))</li></ul>         |
 | `.settings.json`                       | <ul><li>Remove `CODEOWNERS` from the `cSpell.words` property</li></ul>                                                                                         |
+| `cspell.json`                        | <ul><li>Adapt the used Dictionaries if required </li></ul>                                                                                             |
 
 > [!NOTE]
 > You can remove the `LICENSE`, `TERMS.md`, and `PRIVACY_POLICY.md` files if you
@@ -182,7 +211,7 @@ line endings, character sets, and other formatting details. **Do not** modify
 this file unless you have a specific formatting policy that applies to your entire
 team or path.
 
-### AutoChangelog
+### Keep a Changelog
 
 TODO: TODO: TODO: TODO:
 
@@ -192,7 +221,9 @@ TODO: TODO: TODO: TODO:
 
 ### Markdownlint
 
-TODO: TODO: TODO: TODO:
+`markdownlint` is a linter for Markdown files. It helps ensure that your
+Markdown files are consistent and follow best practices. The configuration is
+contained in `.settings.json`.
 
 ### Markdown All in One
 
@@ -231,6 +262,20 @@ TODO: TODO: TODO: TODO:
 TODO: TODO: TODO: TODO:
 
 ### Templates
+
+TODO: TODO: TODO: TODO:
+
+### dependabot
+
+TODO: TODO: TODO: TODO:
+
+### .env with org secrets
+
+TODO: TODO: TODO: TODO:
+
+### git lens
+
+TODO: TODO: TODO: TODO:
 
 ### draw\.io
 

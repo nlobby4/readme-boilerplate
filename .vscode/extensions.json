@@ -16,6 +16,8 @@
     "ms-vscode.vscode-github-issue-notebooks",
     "github.vscode-codeql",
     "github.codespaces",
-    "snyk-security.snyk-vulnerability-scanner"
+    "snyk-security.snyk-vulnerability-scanner",
+    "eamodio.gitlens",
+    "rlnt.keep-a-changelog"
   ]
 }
