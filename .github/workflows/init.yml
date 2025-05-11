@@ -2,6 +2,11 @@ name: Initialize Repository
 
 on:
   workflow_dispatch:
+    inputs:
+      ecosystems:
+        description: 'Select ecosystems (comma separated)'
+        required: true
+        default: 'npm'
 
 jobs:
   update-dependabot:
@@ -11,9 +16,22 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
+      - name: Set up Node.js v23.11.0
+        uses: actions/setup-node@v3
+        with:
+          node-version: '23.11.0'
+
+      - name: Install dependencies
+        run: npm install
+
       - name: Run node CLI tool
         run: |
-          ./.scripts/index.js
+          # Parse the input into an array
+          ECOSYSTEMS="${{ github.event.inputs.ecosystems }}"
+          IFS=',' read -r -a ecosystems_array <<< "$ECOSYSTEMS"
+
+          # Run your script, passing the selected ecosystems as environment variables
+          node ./scripts/index.js "${ecosystems_array[@]}"
 
       - name: Commit changes if configuration was updated
         run: |

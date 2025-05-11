@@ -32,6 +32,12 @@ async function selectEcosystems() {
     },
   ]);
 
+  // If the user didn't select any ecosystems, show an error
+  if (ecosystemsChoice.length === 0) {
+    console.log("No ecosystems selected! Exiting...");
+    return;
+  }
+
   // Generate the Dependabot configuration based on the selected ecosystems
   generateDependabotConfig(ecosystemsChoice);
 }

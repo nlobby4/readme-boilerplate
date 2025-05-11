@@ -136,21 +136,27 @@ can decide whether to keep or remove specific sections or files. Nevertheless,
 it's still recommended to install the suggested extensions and keep their
 respective configuration files, see [Tools](#tools) for more information.
 
+### Installation
+
 In general there are two ways to utilize this repository:
 
-### A. Copy to an Existing Repository
+#### A. Copy to an Existing Repository
 
 If you already have an existing repository, you can easily copy and paste the
 specific files you need, or download the repository as a ZIP file [here](https://github.com/nlobby4/readme-boilerplate/archive/refs/heads/main.zip).
 Alternatively, you can clone the repository using Git.
 
-### B. Start a New Repository
+#### B. Start a New Repository
 
 This repository is marked as a **template**, which allows you to select it as
 one when creating a new repository via GitHub. This will result in all the
 contained files being copied to your new repository. Once you open the repository
 in vscode it will prompt you to install the recommended extensions and will
 automatically apply the workspace settings.
+
+### Auto Configuration
+
+TODO: TODO: TODO: TODO: creating a github action to automatically configure
 
 > [!TIP]
 > If you are an organization member, you can also follow the
