@@ -9,15 +9,15 @@
     "streetsidesoftware.code-spell-checker",
     "aaron-bond.better-comments",
     "hediet.vscode-drawio",
-    "codecov.codecov",
     "davidanson.vscode-markdownlint",
     "usernamehw.errorlens",
     "ms-vscode-remote.remote-containers",
     "ms-vscode.vscode-github-issue-notebooks",
     "github.vscode-codeql",
     "github.codespaces",
-    "snyk-security.snyk-vulnerability-scanner",
     "eamodio.gitlens",
-    "rlnt.keep-a-changelog"
+    "rlnt.keep-a-changelog",
+    //"snyk-security.snyk-vulnerability-scanner",
+    //"codecov.codecov",
   ]
 }
